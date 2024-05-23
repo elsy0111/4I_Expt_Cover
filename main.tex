@@ -1,0 +1,191 @@
+\documentclass[10pt]{ltjsarticle}
+% ? Table ================================
+\usepackage{multirow}
+\usepackage{hhline}
+% * Cover ===============================
+\usepackage{array}
+\usepackage{geometry}
+% * =====================================
+% ? =====================================
+
+\usepackage{float}
+\usepackage{ascmac}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{url}
+
+% ? Tikz config =========================
+% \usepackage{tikz}
+% \usepackage{circuitikz}
+% \usetikzlibrary{shapes.geometric, arrows.meta, positioning}
+% \usetikzlibrary{shapes.gates.logic.US, circuits.logic.US}
+% \usetikzlibrary {shapes.misc}
+% \usetikzlibrary{calc}
+% ? =====================================
+
+% ? Listing config ======================
+% \usepackage{listings,jvlisting}
+% \lstset{
+%   basicstyle={\ttfamily},
+%   identifierstyle={\small},
+%   commentstyle={\smallitshape},
+%   keywordstyle={\small\bfseries},
+%   ndkeywordstyle={\small},
+%   stringstyle={\small\ttfamily},
+%   frame=single,
+%   breaklines=true,
+%   columns=[l]{fullflexible},
+%   numbers=left,
+%   tabsize=4,
+%   % xrightmargin=0zw,
+%   % xleftmargin=3zw,
+% %   numberstyle={\scriptsize},
+%   stepnumber=1,
+%   % numbersep=1zw,
+%   lineskip=-0.5ex
+% }
+% ? =====================================
+
+\begin{document}
+
+\newgeometry{left=1.5cm,right=1.5cm,top=2cm,bottom=0cm}
+\thispagestyle{empty}
+
+\begingroup
+\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{|p{1.2cm}p{1.6cm}p{7.6cm}p{5.3cm}p{1.2cm}|}
+  \hline
+  \multicolumn{1}{|c|}{\large 分類} & \multicolumn{1}{c}{\multirow{2}{*}{
+    \vspace{-4pt}\Huge 0
+    }} & \multicolumn{1}{|c|}{\multirow{2}{*}{
+    \Huge\vspace{-4pt}\quad 実 験 報 告 書 \quad}} & \multicolumn{2}{c|}{
+    \quad\Large\hspace{.5pt}有明工業高等専門学校\hspace{11.8pt}\quad}\\
+  \cline{1-1}
+  &  &\multicolumn{1}{|c|}{} & \multicolumn{2}{c|}{
+    \quad\Large\hspace{.7pt}情報システムコース\hspace{11.8pt}\quad}\\
+  \hline
+\end{tabular}
+\vspace{-1pt}
+\begin{tabular}{|p{1.2cm}p{13.5435cm}p{1.2cm}|}
+  & & \multicolumn{1}{c|}{}\\
+  &\Large 
+  題目 \qquad なにかとなにかについて(いい感じに中央寄せして)
+  & \\
+  \cline{2-2} 
+\end{tabular}
+\vspace{-1pt}
+\begin{tabular}{|p{1.2cm}p{7cm}p{.6cm}p{5.1cm}p{1.2cm}|}
+  & & & & \multicolumn{1}{c|}{}\\&\Large 
+  担当教員 \: Gauthier, 松野良信
+  & &\Large 
+  実験室 \: 電子工学実験室
+  & \\\cline{2-2} \cline{4-4}
+\end{tabular}
+\vspace{-1pt}
+\begin{tabular}{|p{1.2cm}p{8.7cm}p{0cm}p{4cm}p{1.2cm}|}
+  & & & & \multicolumn{1}{c|}{}\\&\Large 
+  実験年月日 \: 令和6年 00月 00日 金曜日
+  & & & \\\cline{2-2} 
+\end{tabular}
+\vspace{-1pt}
+\begin{tabular}{|p{1.2cm}p{13.5435cm}p{1.2cm}|}
+  & & \multicolumn{1}{c|}{}\\
+  &\Large 
+  天候 \quad 晴れ\quad
+  温度 \quad 00 ${}^\circ$C \quad
+  湿度 \quad 00 \%\quad
+  気圧 \quad 1000 hPa
+  & \\
+  \cline{2-2} 
+\end{tabular}
+\vspace{-1pt}
+\begin{tabular}{|p{1.2cm}p{3.81cm}p{0.2133cm}p{3.81cm}p{0.2133cm}p{3.81cm}p{1.2cm}|}
+  & & & & & & \multicolumn{1}{c|}{}\\
+  &\Large 
+  共同実験者 第0班
+  & & & & & \\
+  \cline{2-2}
+  & & & & & & \multicolumn{1}{c|}{}\\
+  &\multicolumn{1}{c}{\Large 齋 藤 \quad 健 吾}&
+  &\multicolumn{1}{c}{\Large 齋 藤 \quad 健 吾}&
+  &\multicolumn{1}{c}{\Large 齋 藤 \quad 健 吾}& \multicolumn{1}{c|}{}\\
+  \cline{2-2} \cline{4-4} \cline{6-6}
+  & & & & & & \multicolumn{1}{c|}{}\\
+  &\multicolumn{1}{c}{\Large 齋 藤 \quad 健 吾}&
+  &\multicolumn{1}{c}{\Large 齋 藤 \quad 健 吾}&
+  &\multicolumn{1}{c}{\Large 齋 藤 \quad 健 吾}& \multicolumn{1}{c|}{}\\
+  \cline{2-2} \cline{4-4} \cline{6-6}
+\end{tabular}
+\vspace{-1pt}
+\begin{tabular}{|p{1.2cm}p{8.7cm}p{0cm}p{4cm}p{1.2cm}|}
+  & & & & \multicolumn{1}{c|}{}\\&\Large 
+  提出年月日 \: 令和6年 00月 00日 あ曜日
+  & & & \\\cline{2-2} 
+\end{tabular}
+\vspace{-1pt}
+\begin{tabular}{|p{1.2cm}p{6.2cm}p{.6cm}p{5.9cm}p{1.2cm}|}
+  & & & & \multicolumn{1}{c|}{}\\&\Large 
+  提出者 \quad 第 \: 4 \: 年 \quad 17 \: 番
+  & &\Large 
+  氏名 \qquad 齋 藤 \quad 健 吾
+  & \\\cline{2-2} \cline{4-4}
+  & & & & \multicolumn{1}{c|}{}\\
+  \hline
+\end{tabular}
+\vspace{-1pt}
+\begin{tabular}{|p{1.2cm}p{1.6cm}p{7.8cm}p{4.5cm}p{1.2cm}|}
+  \multicolumn{1}{|c|}{\large 概要} & & & & \multicolumn{1}{c|}{\:\hspace{7.1pt}\:}\\
+  \cline{1-1}
+\end{tabular}
+\end{center}
+\endgroup
+\vspace{-16pt}
+\begingroup
+\begin{center}
+\renewcommand{\arraystretch}{1}
+\begin{tabular}{|p{.9cm}p{13.9435cm}p{1.1cm}|}
+  % & & \multicolumn{1}{c|}{}\\
+  &\large 
+  \hspace{-.6em}\underline{実験の目的}
+  & \\
+  &
+  \quad じっけんのもくてき \par ああああああああああああああああああああああああ
+  \par うううううううううううううううううう
+  \par うううううううううううううううううう
+  \vspace{.6em}
+  & \\
+  &\large 
+  \hspace{-.6em}\underline{実験の概要}
+  & \\
+  &
+  \quad じっけんのがいよう \par あああああああああああああああああああああ
+  \par 右まで行くと自動でワードラッピングされますすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすすす
+  \par $\backslash\backslash$ ではなく $\backslash$par で改行してください
+  \par $\backslash$indent ではなく $\backslash$quad で indent してください
+  \par いいいいいいいいいいいいいいいいいい
+  \par いいいいいいいいいいいいいいいいいい
+  \par いいいいいいいいいいいいいいいいいい
+  \vspace{1.2em}
+  & \\
+  % \cline{2-2} 
+  \hline
+\end{tabular}
+\end{center}
+\endgroup
+
+\newgeometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+% \section{参考文献}
+\begin{thebibliography}{10}
+
+\bibitem{okumura}
+奥村晴彦 : 改訂第5版\LaTeXe 美文書作成入門，
+技術評論社(2010).
+
+\end{thebibliography}
+
+\end{document}
